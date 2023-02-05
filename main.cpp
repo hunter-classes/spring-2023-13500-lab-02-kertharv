@@ -19,12 +19,15 @@ int main()
     std::cout << "The numbers between 10 and 30 excluding 30 are: ";
     print_interval(10, 30);
     std::cout << std::endl;
+
     std::cout << "The numbers between 30 and 55 excluding 55 are: ";
     print_interval(30, 55);
     std::cout << std::endl;
+
     std::cout << "The numbers between 51 and 67 excluding 67 are: ";
     print_interval(51, 67);
     std::cout << std::endl;
+    
     std::cout << "The numbers between 103 and 109 excluding 109 are: ";
     print_interval(103, 109);
     std::cout << std::endl;
