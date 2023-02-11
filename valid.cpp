@@ -20,7 +20,7 @@ int main()
     std::cout << "Please enter an integer between 0 and 100: ";
     std::cin >> value;
 
-    while (0 > value || value > 100)
+    while (0 > value || value > 100 || value == 0 || value == 100)
     {
         std::cout << "Please enter a valid integer: ";
         std::cin >> value;
